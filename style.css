@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@700&family=Jost:wght@300;400;600&family=Noto+Sans&family=Oswald:wght@400;500&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&family=Press+Start+2P&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #FBFBFD;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3vh 0 0 0 ;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.conad-img{
+    height: 130px;
+}
+
+.codice-io{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.codice-io input{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #F6842A;
+    width: 400px;
+    text-transform: uppercase;
+}
+
+.codice-io input::placeholder{
+    text-transform: none;
+}
+
+.codice-io button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #F6842A;
+    color: white;
+    border: none;
+    margin: 0 0 0 100px;
+}
+
+@media screen and (max-width: 700px) {
+    h1{
+        font-size: 21px;
+    }
+    .conad-img{
+        height: 91px;
+    }
+    
+    .codice-io{
+        padding: 7px;
+    }
+    
+    .codice-io input{
+        padding: 7px;
+        font-size: 14px;
+        border-radius: 7px;
+        width: 280px;
+    }
+    
+    .codice-io button{
+        padding: 7px;
+        font-size: 14px;
+        border-radius: 7px;
+        margin: 0 0 0 70px;
+    }
+}
