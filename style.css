@@ -108,3 +108,25 @@ h1{
         margin: 0 0 0 50px;
     }
 }
+
+.qr-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-element{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 15px 0 0 0;
+    margin: 10px;
+    font-weight: 500;
+}
