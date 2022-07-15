@@ -81,3 +81,30 @@ h1{
         margin: 0 0 0 70px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    h1{
+        font-size: 15px;
+    }
+    .conad-img{
+        height: 65px;
+    }
+    
+    .codice-io{
+        padding: 5px;
+    }
+    
+    .codice-io input{
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    
+    .codice-io button{
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+        margin: 0 0 0 50px;
+    }
+}
