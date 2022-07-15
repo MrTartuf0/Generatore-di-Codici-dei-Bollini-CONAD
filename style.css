@@ -117,8 +117,8 @@ h1{
 }
 
 .qr-element{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: white;
     border: 2px solid black;
     display: flex;
@@ -129,4 +129,24 @@ h1{
     padding: 15px 0 0 0;
     margin: 10px;
     font-weight: 500;
+}
+
+.clicked{
+    background-color: lightgreen;
+}
+
+.right-clicked{
+    background-color: tomato;
+}
+
+.qrImg{
+    pointer-events: none;
+}
+
+.qrImg::selection{
+    display: none;
+}
+
+.qr-element p::selection{
+    display: none;
 }
